@@ -2,7 +2,7 @@
   "name" : "UC List Extension",
   "version" : "21.1",
   "description" : "Plug-ins Pro List Extension is an Oracle APEX plug-in designed to improve user experience when adding new values to an existing List of Values (LOV). Users can quickly and easily add a new value to an existing Select List, Popup LOV, Radio Group, Checkbox, or Shuttle and automatically select the newly created value - all without leaving the page they are working on or losing their place in the application!",
-  "keywords" : ["LOV","value","item"],
+  "keywords" : ["LOV","value","item","Select List", "Popup LOV", "Shuttle", "Radio", "Checkbox"],
   "homepage" : "https://www.plug-ins-pro.com/",
   "bugs" : {
     "url" : "https://github.com/plug-ins-pro/list_extension/issues",
@@ -21,11 +21,11 @@
     "url" : "https://github.com/plug-ins-pro/list_extension"
   },
  "oracle" : {
-    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x"],
+    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x", "21.x"],
     "apex" : {
       "versions" : ["19.2.0", "20.1.0", "20.2.0"],
       "plugin" : {
-        "internalName" : "UNITEDCODES_LISTEXTENSION",
+        "internalName" : "UNITEDCODES_LIST_EXTENSION",
         "type" : "dynamic action",
         "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/list_extension/home",
         "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/612/files/static/v7/plugins-pro-list-extension-1.gif"}
